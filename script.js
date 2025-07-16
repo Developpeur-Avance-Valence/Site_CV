@@ -3,7 +3,7 @@ const container = document.getElementById('container');
 const fiches = Array.from(container.children);
 const fichesMelangees = [];
 
-if(container) {
+if(container != null) {
 while (fiches.length > 0) {
     let i = Math.floor(Math.random() * fiches.length);
     fichesMelangees.push(fiches[i]);
