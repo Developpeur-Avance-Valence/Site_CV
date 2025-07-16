@@ -11,7 +11,7 @@ while (fiches.length > 0) {
 
 fichesMelangees.forEach(fiche => container.appendChild(fiche));
 }catch(error){
-    console.log("Erreur :", error);
+    
 }
 
 //Composant header
