@@ -1,9 +1,8 @@
-
+try {
 const container = document.getElementById('container');
 const fiches = Array.from(container.children);
 const fichesMelangees = [];
-console.log("Le container :", container);
-if(container != null) {
+
 while (fiches.length > 0) {
     let i = Math.floor(Math.random() * fiches.length);
     fichesMelangees.push(fiches[i]);
@@ -11,6 +10,8 @@ while (fiches.length > 0) {
 }
 
 fichesMelangees.forEach(fiche => container.appendChild(fiche));
+}catch(error){
+    console.log("Erreur :", error);
 }
 
 //Composant header
