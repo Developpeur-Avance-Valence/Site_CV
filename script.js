@@ -1,5 +1,6 @@
-try {
+
 const container = document.getElementById('container');
+if(container){
 const fiches = Array.from(container.children);
 const fichesMelangees = [];
 
@@ -10,8 +11,6 @@ while (fiches.length > 0) {
 }
 
 fichesMelangees.forEach(fiche => container.appendChild(fiche));
-}catch(error){
-    
 }
 
 //Composant header
