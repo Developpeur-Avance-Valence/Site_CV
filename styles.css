@@ -116,8 +116,9 @@ h5 {
 /* Planning dev et alt */
 .planning {
     display: flex;
-    justify-content: stretch;
+    justify-content: center;
     flex-wrap: wrap;
+    padding: 0;
    
     
 }
